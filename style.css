@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 4em;
+    margin: 0;
+}
+
+.count{
+    font-size: 4em;
+}
+
+.btn{
+    background: none;
+    border: solid black 2px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    padding: 0.3em 1em;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.decrease, .reset{
+    margin-right: 1em;
+}
